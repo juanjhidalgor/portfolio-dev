@@ -23,15 +23,13 @@ const linkedUrl = linkedInfo?.url
 
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
-
 <Section>
   <div class="container">
     <div class="info">
-      <h1>{name}</h1>
-      <h2>{label}</h2>
-      <span>
-        <WorldMap />
-        {city}, {region}
+      <h2>{name}</h2>
+      <h1>{label}</h1>
+      <span id="location">
+        <WorldMap /> {city}, {region}
       </span>
       <footer class="print">
         {printInfo}
@@ -100,7 +98,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     gap: 0.5rem;
     padding-right: 32px;
   }
-
+  #location{
+    text-align: center;
+  }
   h1 {
     font-size: 2rem;
   }

@@ -1,65 +1,107 @@
 ---
-import Section from "../Section.astro"
+import { skills } from "@cv"
+
 import HTML from "@/icons/html.astro"
 import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
 import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
 import Node from "@/icons/node.astro"
 import MySQL from "@/icons/sql.astro"
 import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
-import Next from "@/icons/next.astro"
-import { skills } from "@cv"
-import Swift from "@/icons/swift.astro"
-import SwiftUI from "@/icons/swiftui.astro"
-import Kotlin from "@/icons/kotlin.astro"
-import Flutter from "@/icons/flutter.astro"
+import CSharp from "@/icons/csharp.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
   CSS,
-  JavaScript,
   TypeScript,
-  React,
+  CSharp,
   Node,
   MySQL,
   Git,
-  GitHub,
-  Next,
-  Tailwind,
-  Swift,
-  SwiftUI,
-  Kotlin,
-  Flutter,
+  GitHub
 }
 ---
 
-<Section title="Habilidades">
-  <ul>
+<section 
+id="skills">
+  <h2 id="title">Habilidades</h2>
+  <ul class="skill-cell">
+    <h3 class="skill-tag">Framework</h3>
     {
-      skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
-        const Icon = SKILLS_ICONS[iconName]
-
-        return (
-          <li>
-            {Icon && <Icon />} <span>{name}</span>
-          </li>
-        )
+      skills.map(({ name, keyword }) => {
+        const iconName = name === "Next.js" ? "Next" : name;
+        const Icon = SKILLS_ICONS[iconName];
+        
+        return keyword === 'Framework' 
+        ? <li>{Icon && <Icon />} <span>{name}</span></li>
+          : "";
       })
     }
   </ul>
-</Section>
+  <ul class="skill-cell">
+    <h3 class="skill-tag">Language</h3>
+     {
+      skills.map(({ name, keyword }) => {
+        const iconName = name === "Next.js" ? "Next" : name;
+        const Icon = SKILLS_ICONS[iconName];
+        
+        return keyword === 'Language' 
+        ? <li>{Icon && <Icon />} <span>{name}</span></li>
+          : "";
+      })
+    }
+  </ul>
+  <ul class="skill-cell">
+    <h3 class="skill-tag">Frontend</h3>
+     {
+      skills.map(({ name, keyword }) => {
+        const iconName = name === "Next.js" ? "Next" : name;
+        const Icon = SKILLS_ICONS[iconName];
+        
+        return keyword === 'Frontend' 
+          ? <li>{Icon && <Icon />} <span>{name}</span></li>
+          : "";
+      })
+    }
+  </ul>
+  <ul class="skill-cell">
+    <h3 class="skill-tag">Backend</h3>
+     {
+      skills.map(({ name, keyword }) => {
+        const iconName = name === "Next.js" ? "Next" : name;
+        const Icon = SKILLS_ICONS[iconName];
+        
+        return keyword === 'Backend' 
+          ? <li>{Icon && <Icon />} <span>{name}</span></li>
+          : "";
+      })
+    }
+  </ul>
+</section>
 
 <style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
+  #skills{
+    display: flex;
     flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto 48px;
+/*     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 5fr; */
   }
-
+  #title {
+    min-width: 100%;
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  .skill-cell{
+    flex-grow: 1;
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    padding: var(--sz-sm);
+  }
   li {
     align-items: center;
     background: #eee;
@@ -68,7 +110,12 @@ const SKILLS_ICONS: Record<string, any> = {
     display: flex;
     font-size: 0.8rem;
     font-weight: 500;
-    gap: 4px;
     padding: 0.2rem 0.6rem;
+    margin: var(--sz-sm) 0;
+  }
+  @media (width <= 700px) {
+    #skills {
+      margin-bottom: 38px;
+    }
   }
 </style>

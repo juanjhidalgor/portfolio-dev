@@ -1,34 +1,29 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Juan Jose Hidalgo Rojas",
+    "label": "Full Stack Developer",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "email": "juanjosehidalgorojas@gmail.com",
+    "phone": "+57 3502427390",
+    "url": "",
+    "summary": "Soy un desarrollador de software enfocado en aplicaciones de escritorio, donde he estado creando soluciones robustas utilizando C# o TypeScript, junto con frameworks como Angular y .NET. Mi trayectoria en el desarrollo de software está impulsada por una pasión por crear aplicaciones de alta calidad que satisfagan las necesidades de los usuarios y optimicen sus tareas.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "111121",
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "region": "Colombia"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "url": "https://linkedin.com/in/juan-jose-hidalgo-rojas"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "juanjhidalgor",
+        "url": "https://github.com/juanjhidalgor"
       }
     ]
   },
@@ -77,18 +72,26 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
+  "education": [
+    {
+      "institution": "Politecnico Internacional",
+      "url": "https://politecnicointernacional.edu.co/sw/es",
+      "area": "Desarrollador Web",
+      "studyType": "Tecnologo",
+      "startDate": "2021-01-01",
+      "endDate": "2024-09-01",
+      "score": "4.0"
+    },
+    {
+      "institution": "Cymetria",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Fullstack Javascript",
+      "studyType": "Bootcamp",
+      "startDate": "2024-05-01",
+      "endDate": "2024-08-01",
+      "score": "4.0"
+    }
+  ],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
@@ -112,79 +115,42 @@
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keyword": "Frontend"
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-      ]
+      "keyword": "Frontend"
     },
     {
       "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-      ]
+      "level": "Beginer",
+      "keyword": "Language"
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
+      "name": "C-Sharp",
+      "level": "Beginer",
+      "keyword": "Language"
     },
     {
       "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "level": "Beginer",
+      "keyword": "Backend"
     },
     {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
+      "name": "Node",
+      "level": "Beginer",
+      "keyword": "Backend"
     },
     {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
+      "name": "Core",
+      "level": "Beginer",
+      "keyword": "Framework"
     },
     {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "name": "Angular",
+      "level": "Beginer",
+      "keyword": "Framework"
     }
   ],
   "languages": [
@@ -194,12 +160,12 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Intermediate"
     }
   ],
   "interests": [{
     "name": "Wildlife",
-    "keywords": [
+    "keyword": [
       "Ferrets",
       "Unicorns"
     ]
@@ -210,66 +176,44 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Wiki 2.0",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Remodelacion de la wiki oficial ciencia de ficcion 'La Fundacion SCP'.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Independiente"
       ],
-      "url": "https://mars.codes"
+      "url": "",
+      "github": ""
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "name": "Oasis",
+      "isActive": null,
+      "description": "Plataforma interactiva para eventos gaming y cultura pop",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Independiente"
       ],
-      "url": "https://adventjs.dev"
+      "url": "",
+      "github": ""
     },
     {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "name": "A-113",
+      "isActive": null,
+      "description": "Rastreador de germinacion para las plantas del paramo 'Guerrero'.",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "Independiente"
       ],
-      "url": "https://codember.dev"
+      "url": "",
+      "github": ""
     },
     {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "name": "keyMorse",
+      "isActive": null,
+      "description": "Applicacion de mensajería especializada en entornos corporativos.",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "Independiente"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "",
+      "github": ""
     }
   ]
 }
